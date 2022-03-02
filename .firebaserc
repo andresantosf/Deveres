@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "deveres-e54be": {
+      "hosting": {
+        "MyProjectName": [
+          "deveres-e54be"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "deveres-e54be"
+  }
+}

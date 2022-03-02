@@ -1,0 +1,13 @@
+#container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.card {
+  padding: 10px;
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  background-color: rgb(240, 167, 167);
+}
