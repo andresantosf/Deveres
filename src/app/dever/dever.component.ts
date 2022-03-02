@@ -21,7 +21,7 @@ export class DeverComponent implements OnInit{
   ngOnInit(): void {
     this.item$.subscribe(arg => {
         for(var dever of arg){
-          if(dever.title != null){
+          if(dever.title != null && dever.data.seconds*1000>Date.now()){
             var data = new Date
             data.setTime(dever.data.seconds*1000)
             dever.data   =  ('0' + data.getDate()).slice(-2) +
